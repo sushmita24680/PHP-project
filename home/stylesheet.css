@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header .nav1{
+        background-image: linear-gradient(to right, rgb(48, 22, 71), rgb(255, 1, 98), rgb(58, 28, 87));
+    position:fixed;
+    color: white;
+    font-size: 20px;
+  
+}
+
+header li>ul{
+    float: left;
+    padding-right: 20px;
+    
+}
+
+.nav2{
+    padding-left:35rem;
+    padding-top: 12px;
+    list-style: none;
+}
+
+#login{
+    float: right;
+    padding-left: 55rem;
+    margin-right:4rem;
+    margin-top: -1em;
+    position: relative;
+
+
+    
+}
+ button{
+    padding: 10px;
+    margin-top: -5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:90px;
+    background-color: rgb(2, 122, 38);
+    color: white;
+    font-size: 20px;
+}
