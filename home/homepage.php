@@ -10,16 +10,38 @@
     <title>Raag lyrics</title>
   </head>
   <body>
+ 
+  <div class="main">
+    
   <header>
-  <li style="list-style:none;" class="nav1">
-  <ul> <img src="70a36980d5c84b66898f56109051a4a4.png" style="height:55px;padding-left:10px;"/>
-  </ul> 
-  <ul><div class="nav2"><li><ul>home</ul>
-  <ul> playlist</ul>
-  <ul>about us </ul></li></div></ul>
+  <ul style="list-style:none;" class="nav1">
+  <li> <img src="RAAGLOGO.png" style="height:78px;padding-left:10px;"/>
+  </li> 
+  <li><div class="nav2"><ul><li><a href="#">home</a></li>
+  <li><a href="#"> playlist</a></li>
+  <li><a href="#">about us</a> </li></ul></div></li>
   
-  <ul id="login"><button>login</button></ul>
-  </li>
-  </header>
+ <li id="started"><button>get started</button></li>
 
+</ul>
+  </header>
+  <div id="main-content">
+  <h1 >Now Enjoy! Unlimited music online freely...</h1>
+  <ul><li>Now just login and start your day with your favourite songs.</li>
+  <li>You can even your own playlist and get started.</li>
+  <li>Remember to subscribe us to get latest tracks and updates </li>
+</ul>
+<div class="btn">
+  <div id="btn1">
+    <button>Subscribe</button>
+  </div>
+  <div id="btn2">
+    <button>login / signup</button>
+  </div>
+</div>
+</div>
+  <div id="background">
+</div>
+</div>
+</body>
 </html>
