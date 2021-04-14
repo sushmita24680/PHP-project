@@ -7,20 +7,20 @@
 				<div id="msg"></div>
 					<div class="row">
 							<div class="form-group col-md-6">
-								<input type="text" class="form-control" placeholder="First name" name='firstname'>
+								<input type="text" class="form-control" placeholder="First name" name='firstname' required>
 							</div>
 							<div class="form-group col-md-6">
-								<input type="text" class="form-control" placeholder="Last name" name='lastname'>
+								<input type="text" class="form-control" placeholder="Last name" name='lastname' required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col-md-12">
-								<input type="email" class="form-control" placeholder="Email" name='email'>
+								<input type="email" class="form-control" placeholder="Email" name='email' required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col-md-12">
-								<input type="password" class="form-control" placeholder="Password" name='password'>
+								<input type="password" class="form-control" placeholder="Password" name='password' pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 							</div>
 						</div>
 						<b><small class="text-muted"><b>Gender</b></small></b>
@@ -46,7 +46,7 @@
 					</div>
 					<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" name="contact" class="form-control form-control-sm" required="" placeholder="Contact">
+								<input type="text" name="contact" class="form-control form-control-sm" placeholder="Contact" required>
 							</div>
 							<div class="form-group">
 								<textarea id="" cols="30" rows="4" name="address" class="form-control" placeholder="Address"></textarea>
